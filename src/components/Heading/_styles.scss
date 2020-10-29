@@ -1,0 +1,24 @@
+.heading {
+    padding: 0 0 $unit * 2;
+    text-align: center;
+
+    &__title {
+        margin: 0 0 $unit;
+    }
+
+    &__subtitle {
+        margin: 0;
+        font-weight: normal;
+	}
+	
+	/* Mobile styles */
+	@media(max-width: 479px) {
+		&__title {
+			font-size: $unit * 2.4;
+		}
+
+		&__subtitle {
+			font-size: $unit * 1.6;
+		}
+	}
+}

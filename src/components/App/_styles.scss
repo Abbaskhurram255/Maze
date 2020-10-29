@@ -1,0 +1,13 @@
+.app {
+	padding: $unit * 2.5;
+	text-align: center;
+	
+	.level {
+		margin-bottom: $unit * 2;
+	}
+
+	/* Mobile styles */
+	@media(max-width: 639px) {
+		padding: $unit * 2;
+	}
+}

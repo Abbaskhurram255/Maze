@@ -1,0 +1,48 @@
+.button {
+	/* Default Button styles */
+	display: inline-block;
+	min-width: $unit * 12;
+	padding: $unit $unit * 2;
+	background-color: transparent;
+	border: 1px solid $dark;
+	font-size: $font-size-small;
+	color: $dark;
+	text-align: center;
+	appearance: none;
+	transition: background-color .25s, border-color .25s, color .25s;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+
+	/* Primary Button */
+	&--primary {
+		background-color: $dark;
+		color: $white;
+
+		&:hover {
+			background-color: lighten($dark, 15%);
+		}
+	}
+
+	/* Secondary Button */
+	&--secondary {
+		background-color: lighten($dark, 65%);
+		border-color: lighten($dark, 65%);
+
+		&:hover {
+			background-color: lighten($dark, 70%);
+			border-color: lighten($dark, 70%);
+		}
+	}
+
+	/* Link Button */
+	&--link {
+		border: 0;
+		padding: 0;
+		transition: opacity .25s;
+
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+}
