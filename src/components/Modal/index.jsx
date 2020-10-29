@@ -12,6 +12,7 @@ import { toggleModal } from '../App/actions'
 import { initializeLevel } from '../Level/actions'
 import { generateMaze } from '../../utils/generator'
 
+class Modal extends React.Component {
 	constructor() {
 		super()
 
