@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo
-https://react-maze-game.netlify.com
+https://alexs-maze-game.netlify.app/
 
 ## Available Scripts
 
