@@ -63,6 +63,8 @@ class StartScreen extends React.Component {
 						</div>
 
 						<div className="start-screen__menu">
+							<h6 className="difflvlstext">Difficulty levels</h6>
+							<br />
 							<ul>
 								{menuLinks.map(({ id, label, action }) => (
 									<li key={id}>

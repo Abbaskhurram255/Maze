@@ -3,7 +3,7 @@ export const startScreenTitle = 'The Maze'
 export const menuLinks = [
 	{
 		id: 'start-new-game-easy',
-		label: 'Start New Game - Easy',
+		label: 'Easy',
 		action: {
 			type: 'START',
 			difficulty: 'EASY'
@@ -11,7 +11,7 @@ export const menuLinks = [
 	},
 	{
 		id: 'start-new-game-normal',
-		label: 'Start New Game - Normal',
+		label: 'Normal',
 		action: {
 			type: 'START',
 			difficulty: 'NORMAL'
@@ -19,7 +19,7 @@ export const menuLinks = [
 	},
 	{
 		id: 'start-new-game-medium',
-		label: 'Start New Game - Medium',
+		label: 'Medium',
 		action: {
 			type: 'START',
 			difficulty: 'MEDIUM'
@@ -27,7 +27,7 @@ export const menuLinks = [
 	},
 	{
 		id: 'start-new-game-hard',
-		label: 'Start New Game - Hard',
+		label: 'Hard',
 		action: {
 			type: 'START',
 			difficulty: 'HARD'
@@ -35,7 +35,7 @@ export const menuLinks = [
 	},
 	{
 		id: 'start-new-game-insane',
-		label: 'Start New Game - Insane',
+		label: 'Insane',
 		action: {
 			type: 'START',
 			difficulty: 'INSANE'
