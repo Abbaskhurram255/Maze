@@ -1,6 +1,6 @@
 {
   "name": "the-maze",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
@@ -21,7 +21,6 @@
     "redux-mock-store": "^1.5.3",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
-    "js-hint": "^0.11.0",
     "reselect-immutable-helpers": "^1.2.2"
   },
   "scripts": {
