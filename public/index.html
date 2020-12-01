@@ -25,14 +25,14 @@
 	</head>
 	<body>
 		<audio id="backgr-music" loop>
-			<source src="game.mp3" type="audio/mpeg" />
+			<source src="%PUBLIC_URL%/game.mp3" type="audio/mpeg" />
 			Your browser does not support the audio element.
 		</audio>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<script>
 			var backgrMusic = document.getElementById('backgr-music');
 			document.body.onload = () => {
-				backgrMusic.volume = 0.3;
+				backgrMusic.volume = 0.5;
 				backgrMusic.play();
 			}
 		</script>
