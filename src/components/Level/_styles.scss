@@ -1,6 +1,7 @@
 .level {
     /* Default Level styles */
     display: flex;
+    background: linear-gradient(150deg, whitesmoke, transparent);
     flex-flow: row wrap;
     max-width: $level-width;
     margin: 0 auto;
