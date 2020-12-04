@@ -1,7 +1,9 @@
 .app {
 	padding: $unit * 2.5;
 	text-align: center;
-	background: url("./lvl-backgr.jpg") top no-repeat;
+	background: url("lvl-backgr.jpg") top no-repeat;
+	height: 100%;
+	// background-size: cover;
 	
 	.level {
 		margin-bottom: $unit * 2;

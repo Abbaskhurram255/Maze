@@ -1,5 +1,10 @@
 {
   "name": "the-maze",
+  "homepage": "https://alexs-maze-game.netlify.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abbaskhurram255/maze.git"
+  },
   "version": "1.0.1",
   "private": true,
   "dependencies": {
@@ -29,6 +34,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+   "keywords": [],
+   "author": "Alex <abbaskhurram255@gmail.com> (https://abbaskhurram255.github.io)",
+   "license": "Apache-2.0",
   "eslintConfig": {
     "extends": "react-app"
   },
