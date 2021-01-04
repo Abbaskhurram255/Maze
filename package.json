@@ -35,7 +35,7 @@
     "eject": "react-scripts eject"
   },
    "keywords": [],
-   "author": "Alex <abbaskhurram255@gmail.com> (https://abbaskhurram255.github.io)",
+   "author": "Alex aka Khurram <abbaskhurram255@gmail.com> (https://abbaskhurram255.github.io)",
    "license": "Apache-2.0",
   "eslintConfig": {
     "extends": "react-app"
