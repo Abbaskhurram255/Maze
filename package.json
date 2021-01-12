@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/abbaskhurram255/maze.git"
   },
-  "version": "1.0.1",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
@@ -34,9 +34,19 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-   "keywords": [],
-   "author": "Alex aka Khurram <abbaskhurram255@gmail.com> (https://abbaskhurram255.github.io)",
-   "license": "Apache-2.0",
+  "keywords": [
+    "maze",
+    "puzzle",
+    "maze-game",
+    "game",
+    "the-maze",
+    "difficult",
+    "ai",
+    "artificial-intelligence",
+    "cpu"
+  ],
+  "author": "Alex aka Khurram <abbaskhurram255@gmail.com> (https://abbaskhurram255.github.io)",
+  "license": "Apache-2.0",
   "eslintConfig": {
     "extends": "react-app"
   },
